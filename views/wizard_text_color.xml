@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="assets_common" name="warning_text_color" inherit_id="web.assets_common">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/warning_null_order/static/src/css/wizard_text_color.css"/>
+        </xpath>
+    </template>
+</odoo>
